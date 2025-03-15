@@ -52,7 +52,7 @@ Education – Teaching concepts of higher-dimensional space in an interactive wa
 1️⃣ Clone the repository:
 
 
-git clone https://github.com/your-username/5D-Object-Serialization-WebApp.git
+git clone https://github.com/PSivaMallikarjun/5D-Object-Serialization-WebApp.git
 2️⃣ Open index.html in a browser.
 3️⃣ Enter 5D coordinates and visualize the transformation!
 
