@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5D Object Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+
+    <h2>5D Object Generator</h2>
+    
+    <label for="shape">Choose Shape:</label>
+    <select id="shape">
+        <option value="cube">Cube</option>
+        <option value="sphere">Sphere</option>
+    </select>
+
+    <label>5D Coordinates:</label>
+    <input type="number" id="x" placeholder="X">
+    <input type="number" id="y" placeholder="Y">
+    <input type="number" id="z" placeholder="Z">
+    <input type="number" id="w" placeholder="W">
+    <input type="number" id="v" placeholder="V">
+    
+    <button onclick="generateObject()">Generate</button>
+
+    <div id="scene-container"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
